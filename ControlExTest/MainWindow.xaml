@@ -1,0 +1,16 @@
+﻿<Window x:Class="ControlExTest.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:ControlExTest" xmlns:controlex="clr-namespace:ControlEx;assembly=ControlEx"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800">
+    <WrapPanel>
+        <controlex:TextBlockEx Width="300" Height="50" x:Name="tb" Background="Red" TextTrimming="CharacterEllipsis" 
+                               TextWrapping="Wrap">
+            爱丽丝凯迪拉克懒得看打火机的福利卡世纪东方看打火机的福利卡世纪东方阿拉山口大姐夫暗示领导看风景
+        </controlex:TextBlockEx>
+        <Button Content="{Binding ElementName=tb,Path=IsTextTrimming}" Click="Button_Click"/>
+    </WrapPanel>
+</Window>

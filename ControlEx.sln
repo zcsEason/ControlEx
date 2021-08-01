@@ -1,0 +1,36 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30717.126
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ControlEx", "ControlEx\ControlEx.csproj", "{C7F3662F-D7C6-4CD9-97E4-E50DF740BFC8}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Test", "Test", "{64010CE9-1BA6-462A-859A-3D444FD6D05A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ControlExTest", "ControlExTest\ControlExTest.csproj", "{7F9AB84B-C073-4436-A002-667B44CD6B51}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{C7F3662F-D7C6-4CD9-97E4-E50DF740BFC8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C7F3662F-D7C6-4CD9-97E4-E50DF740BFC8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C7F3662F-D7C6-4CD9-97E4-E50DF740BFC8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C7F3662F-D7C6-4CD9-97E4-E50DF740BFC8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7F9AB84B-C073-4436-A002-667B44CD6B51}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7F9AB84B-C073-4436-A002-667B44CD6B51}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7F9AB84B-C073-4436-A002-667B44CD6B51}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7F9AB84B-C073-4436-A002-667B44CD6B51}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{7F9AB84B-C073-4436-A002-667B44CD6B51} = {64010CE9-1BA6-462A-859A-3D444FD6D05A}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {634288AC-7A5C-4498-AF2B-151115500DA2}
+	EndGlobalSection
+EndGlobal
