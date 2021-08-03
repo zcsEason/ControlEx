@@ -8,6 +8,7 @@ using System.Windows.Controls;
 using System.Windows.Data;
 using System.Windows.Documents;
 using System.Windows.Input;
+using System.Windows.Markup;
 using System.Windows.Media;
 using System.Windows.Media.Imaging;
 using System.Windows.Navigation;
@@ -28,19 +29,29 @@ namespace ControlExTest
 
         private void Button_Click(object sender, RoutedEventArgs e)
         {
-            Task.Run(() =>
-            {
-                while(true)
-                {
-                    Dispatcher.Invoke(() =>
-                    {
-                        tb.Text += "死快点回来卡";
-                        if (tb.Text.Length > 100)
-                            tb.Text = "";
-                    });
-                    System.Threading.Thread.Sleep(500);
-                }
-            });
+            var tt = tb.IsTextTrimmed;
+            Console.WriteLine(tt ? "截取" : "未截取");
+            tt = IsTextTrimmed(tb);
+            Console.WriteLine(tt ? "截取" : "未截取");
+
         }
+
+        private bool IsTextTrimmed(TextBlock textBlock)
+        {
+            Typeface typeface = new Typeface(
+                textBlock.FontFamily,
+                textBlock.FontStyle,
+                textBlock.FontWeight,
+                textBlock.FontStretch);
+
+            FormattedText formattedText = new FormattedText(
+                textBlock.Text,
+                System.Threading.Thread.CurrentThread.CurrentCulture,
+                textBlock.FlowDirection,
+                typeface,
+                textBlock.FontSize,
+                textBlock.Foreground); bool isTrimmed = formattedText.Width > textBlock.Width; return isTrimmed;
+        }
+
     }
 }

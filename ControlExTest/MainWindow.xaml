@@ -7,10 +7,15 @@
         mc:Ignorable="d"
         Title="MainWindow" Height="450" Width="800">
     <WrapPanel>
-        <controlex:TextBlockEx Width="300" Height="50" x:Name="tb" Background="Red" TextTrimming="CharacterEllipsis" 
-                               TextWrapping="Wrap">
-            爱丽丝凯迪拉克懒得看打火机的福利卡世纪东方看打火机的福利卡世纪东方阿拉山口大姐夫暗示领导看风景
+        <controlex:TextBlockEx Width="300"  Height="54" x:Name="tb" TextTrimming="CharacterEllipsis" 
+                               TextWrapping="NoWrap">
+            asdf
+            <Run Foreground="Red" FontSize="18">数</Run>
+            <Hyperlink>ssdfgertegsdfgsss</Hyperlink>
+            <Run Foreground="Red" FontSize="30">数量sd的we看法</Run>
+
         </controlex:TextBlockEx>
-        <Button Content="{Binding ElementName=tb,Path=IsTextTrimming}" Click="Button_Click"/>
+       
+        <Button Content="测试" Click="Button_Click"/>
     </WrapPanel>
 </Window>
