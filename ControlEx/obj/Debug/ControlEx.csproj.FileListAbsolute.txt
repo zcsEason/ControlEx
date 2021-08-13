@@ -6,3 +6,4 @@ D:\Project\ControlEx\ControlEx\obj\Debug\ControlEx.csproj.GenerateResource.cache
 D:\Project\ControlEx\ControlEx\obj\Debug\ControlEx.csproj.CoreCompileInputs.cache
 D:\Project\ControlEx\ControlEx\obj\Debug\ControlEx.dll
 D:\Project\ControlEx\ControlEx\obj\Debug\ControlEx.pdb
+D:\Project\ControlEx\ControlEx\obj\Debug\ControlEx.csprojAssemblyReference.cache

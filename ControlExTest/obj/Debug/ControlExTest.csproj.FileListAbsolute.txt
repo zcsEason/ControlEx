@@ -17,3 +17,5 @@ D:\Project\ControlEx\ControlExTest\bin\Debug\ControlEx.pdb
 D:\Project\ControlEx\ControlExTest\bin\Debug\ControlEx.dll.config
 D:\Project\ControlEx\ControlExTest\obj\Debug\ControlExTest.csprojAssemblyReference.cache
 D:\Project\ControlEx\ControlExTest\obj\Debug\ControlExTest.csproj.CopyComplete
+D:\Project\ControlEx\ControlExTest\obj\Debug\BorderTest.g.cs
+D:\Project\ControlEx\ControlExTest\obj\Debug\BorderTest.baml

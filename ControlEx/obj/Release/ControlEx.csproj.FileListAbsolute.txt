@@ -1,0 +1,8 @@
+D:\Project\ControlEx\ControlEx\bin\Release\ControlEx.dll.config
+D:\Project\ControlEx\ControlEx\bin\Release\ControlEx.dll
+D:\Project\ControlEx\ControlEx\bin\Release\ControlEx.pdb
+D:\Project\ControlEx\ControlEx\obj\Release\ControlEx.Properties.Resources.resources
+D:\Project\ControlEx\ControlEx\obj\Release\ControlEx.csproj.GenerateResource.cache
+D:\Project\ControlEx\ControlEx\obj\Release\ControlEx.csproj.CoreCompileInputs.cache
+D:\Project\ControlEx\ControlEx\obj\Release\ControlEx.dll
+D:\Project\ControlEx\ControlEx\obj\Release\ControlEx.pdb
