@@ -1,0 +1,15 @@
+﻿<Window x:Class="ControlExTest.ListBoxExTest"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:ControlExTest" xmlns:controlex="clr-namespace:ControlEx;assembly=ControlEx"
+        mc:Ignorable="d"
+        Title="ListBoxExTest" Height="450" Width="800" DataContext="{Binding RelativeSource={RelativeSource Mode=Self}}">
+    <Grid>
+        <controlex:ListBoxEx x:Name="list" TopRefreshEvent="list_TopRefreshEvent"  IsTopRefreshing="{Binding IsTopRefreshing}"
+                         BottomRegreshEvent="list_BottomRegreshEvent" IsBottomRefreshing="{Binding IsBottomRefreshing}" TopRefreshImageSrouce="Images/2.gif"/>
+        <!--<controlex:ListBoxEx x:Name="list"  IsTopRefreshing="{Binding IsTopRefreshing}" TopRefreshCommand="{Binding TopRefreshCommand}"
+                          IsBottomRefreshing="{Binding IsBottomRefreshing}"  BottomRefreshCommand="{Binding BottomRefreshCommand}"/>-->
+    </Grid>
+</Window>
